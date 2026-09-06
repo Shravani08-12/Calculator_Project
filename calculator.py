@@ -29,8 +29,8 @@ while True:
         else:
             print("Error: Invalid Operator")
 
-        choice = input("Do you wish to calculate again? (yes/no): ")
-        if choice == "no":
+        choice = input("Do you wish to calculate again? (yes/no): ").lower()
+        if choice == "no" or choice == "n":
             break
 
 
